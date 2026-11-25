@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-test
+spec:
+  containers:
+    - name: app
+      image: k8s-portfolio-app:0.1.0
+      imagePullPolicy: Never
+      ports:
+        - containerPort: 8080
