@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: k8s-portfolio-app:0.1.0
+          image: k8s-portfolio-app:0.2.0
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
